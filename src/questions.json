@@ -1,0 +1,136 @@
+[
+    {
+        "question": "Who is the brand ambassador of Nivia India?",
+        "optionA": "Anushka Sharma",
+        "optionB": "Alia Bhatt",
+        "optionC": "Taapsee Pannu",
+        "optionD": "Shraddha Kapoor",
+        "answer": "Taapsee Pannu"
+    },
+
+    {
+        "question": "Pumpkin is the national vegetable of which these countries?",
+        "optionA": "USA",
+        "optionB": "England",
+        "optionC": "India",
+        "optionD": "Russia",
+        "answer": "India"
+    },
+
+    {
+        "question": "Which Comic character is the alternate of The Flash(DC) in the Marvel Universe?",
+        "optionA": "Iron man",
+        "optionB": "Quicksilver",
+        "optionC": "Magneto",
+        "optionD": "Hawkeye",
+        "answer": "Quicksilver"
+    },
+
+    {
+        "question": "Which is the second largest cryptocurrency by market capitalisation after bitcoin?",
+        "optionA": "Litecoin",
+        "optionB": "Bitcoin Cash",
+        "optionC": "Ethereum",
+        "optionD": "Ripple",
+        "answer": "Ethereum"
+    },
+
+    {
+        "question": "Which of these is the first computer animated(3D) feature film?",
+        "optionA": "A bugs life",
+        "optionB": "Toy Story",
+        "optionC": "Shrek",
+        "optionD": "Finding Nemo",
+        "answer": "Toy Story"
+    },
+
+    {
+        "question": "What is the value of 'g'(acceleration due to gravity) at the centre of earth?",
+        "optionA": "9.8",
+        "optionB": "10",
+        "optionC": "0",
+        "optionD": "4.9",
+        "answer": "0"
+    },
+
+    {
+        "question": "Where is the smallest bone in the human body?",
+        "optionA": "The Chest",
+        "optionB": "The Ear",
+        "optionC": "The Legs",
+        "optionD": "The Hands",
+        "answer": "The Ear"
+    },
+
+    {
+        "question": "Which country won the 2006 fifa world cup?",
+        "optionA": "France",
+        "optionB": "Italy",
+        "optionC": "Spain",
+        "optionD": "Germany",
+        "answer": "Italy"
+    },
+
+    {
+        "question": "'Once you pop you can't stop' is the tagline of which of these companies?",
+        "optionA": "Poppins",
+        "optionB": "Tic Tac",
+        "optionC": "Doritos",
+        "optionD": "Pringles",
+        "answer": "Pringles"
+    },
+
+    {
+        "question": "Who launched the bolo app in india to help children in rural india with thier reading skills?",
+        "optionA": "Facebook",
+        "optionB": "Infosys",
+        "optionC": "Microsoft",
+        "optionD": "Google",
+        "answer": "Google"
+    },
+
+    {
+        "question": "Which country has scored highest-ever t20 international score?",
+        "optionA": "Afghanistan",
+        "optionB": "West Indies",
+        "optionC": "Australia",
+        "optionD": "India",
+        "answer": "Afghanistan"
+    },
+
+    {
+        "question": "What’s the capital of Australia?",
+        "optionA": "Sydney",
+        "optionB": "Melbourne",
+        "optionC": "Canberra",
+        "optionD": "Brisbane",
+        "answer": "Canberra"
+    },
+
+    {
+        "question": "How many squares are there on a chess board?",
+        "optionA": "128",
+        "optionB": "64",
+        "optionC": "32",
+        "optionD": "256",
+        "answer": "64"
+    },
+
+    {
+        "question": "Who invented the electric light bulb?",
+        "optionA": "Tom Cruise",
+        "optionB": "Barack Obama",
+        "optionC": "Wole Soyinka",
+        "optionD": "Thomas Edison",
+        "answer": "Thomas Edison"
+    },
+
+    {
+        "question": "What are the first three words of the bible?",
+        "optionA": "be with everyone",
+        "optionB": "Again Jesus asked",
+        "optionC": "In the beginning",
+        "optionD": "At that time",
+        "answer": "In the beginning"
+    }
+]

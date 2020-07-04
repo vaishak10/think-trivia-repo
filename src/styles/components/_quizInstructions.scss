@@ -1,0 +1,77 @@
+#instructions {
+    background-image: url('../../assests/img/background6.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-around;
+     height:100vh;
+     width: 100vw;
+
+     h1{
+         /*color: $off-black;
+         font-size: $md;*/
+         text-align: center;
+     }
+
+     .lifeline {
+         position: relative;
+         top: -3px;
+     }
+     
+     .lifeline-icon {
+         color:$green;
+         cursor: pointer;
+     }
+     
+     .browser-default {
+         padding-left: 30px;
+         margin-top: 10px;
+         margin-bottom: 5px;
+     }
+     
+     section {
+        background-color: rgba(0,0,0,0.7);
+        color: $blue;
+        border-radius: 5px;
+        padding-left: $md;
+        padding-right: $sm;
+        height: 105%;
+        width: 35%;
+        position: fixed;
+        left: 40%;
+        /*margin-left: -50px;*/
+    }
+
+    .auth-container {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .auth-button {
+        border-radius: $button-radius;
+        color: $white;
+        cursor: pointer;
+        margin: $md auto;
+        padding: $normal;
+        transition: 0.3s linear all;
+        text-align: center;
+    }
+
+    #back-home{
+        background-color: $green;
+    }
+
+    #back-home:hover{
+        background-color: darken($green,15%);
+    }
+
+    #lets-play{
+        background-color: $red;
+    }
+
+    #lets-play:hover{
+        background-color: darken($red,15%);
+    }
+
+   
+}
