@@ -1,0 +1,60 @@
+h1{
+    text-align: center;
+    color:$green;
+}
+
+.container{
+    background-color: $off-white;
+    border-left: 5px $blue;
+    width: 80%;
+    margin: $lg auto 0 auto;
+    padding: $sm $md;
+
+    h4{
+        color:$blue;
+        text-align: center;
+        font-weight: lighter;
+    }
+
+    h2{
+        text-align: center;
+        font-weight: bold;
+    }
+}
+
+.play-container {
+    display: inline-block;
+    width: 100%;
+    justify-content: space-between;
+    
+
+
+.play-button {
+    border-radius: $button-radius;
+    color: $white;
+    cursor: pointer;
+    margin: $md auto;
+    padding: $normal;
+    transition: 0.3s linear all;
+    text-align: center;
+}
+
+#back-home{
+    background-color: $blue;
+    margin-left: 500px;
+}
+
+#back-home:hover{
+    background-color: darken($blue,15%);
+}
+
+#lets-play{
+    background-color: $green;
+    margin-right: 500px;
+}
+
+#lets-play:hover{
+    background-color: darken($green,15%);
+}
+
+}
