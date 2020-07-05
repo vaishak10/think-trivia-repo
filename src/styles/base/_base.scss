@@ -19,3 +19,11 @@ body{
     border-radius: 5px !important;
     color: $off-white !important;
 }
+
+.disable {
+    background-color: #ccc !important;
+    box-shadow: none !important;
+    pointer-events: none ;
+    opacity: 0.9 !important;
+
+}

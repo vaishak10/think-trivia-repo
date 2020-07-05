@@ -2,6 +2,7 @@ import React, { Component , Fragment } from 'react';
 import {Helmet} from 'react-helmet';
 import M from 'materialize-css';
 import { ToastContainer, toast } from 'react-toastify';
+import classnames from 'classnames';
 
 import questions from '../../questions.json';
 import isEmpty from '../../utils/is-empty';
@@ -27,6 +28,8 @@ class Play extends Component{
             fiftyfifty: 2,
             usedFiftyFifty: false,
             previousRandomNumbers: [],
+            nextButtonDisabled: false,
+            previousButtonDisabled: true,
             time: {}
         };   
         this.interval = null;
@@ -59,6 +62,7 @@ class Play extends Component{
                 previousRandomNumbers: []
                 }, () => {
                     this.showOptions();
+                    this.handleDisabledButton();
                 });
 
            }
@@ -275,6 +279,31 @@ class Play extends Component{
         }, 1000);
     }
 
+
+    handleDisabledButton = () => {
+        if(this.state.previousQuestion === undefined || this.state.currentQuestionIndex === 0){
+            this.setState({
+                previousButtonDisabled: true
+            });
+        }else{
+            this.setState({
+                previousButtonDisabled: false,
+            });
+
+        }
+
+        if(this.state.nextQuestion === undefined || this.state.currentQuestionIndex + 1 === this.state.numberOfQuestions){
+            this.setState({
+                nextButtonDisabled: true
+            });
+        }else{
+            this.setState({
+                nextButtonDisabled: false,
+            });
+
+        }
+    }
+
     render() {
         const { 
             currentQuestion,
@@ -319,8 +348,8 @@ class Play extends Component{
                     </div>
 
                     <div className="button-container">
-                        <button id="previous-button" onClick={this.handlebuttonClick}>Pevious</button>
-                        <button id="next-button" onClick={this.handlebuttonClick}>Next</button>
+                        <button className={classnames('', {'disable':this.state.previousButtonDisabled})} id="previous-button" onClick={this.handlebuttonClick}>Pevious</button>
+                        <button className={classnames('', {'disable':this.state.nextButtonDisabled})} id="next-button" onClick={this.handlebuttonClick}>Next</button>
                         <button id="quit-button" onClick={this.handlebuttonClick}>Quit</button>
                     </div>
                  </div>
